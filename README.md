@@ -61,18 +61,18 @@ https://colab.research.google.com/
 ```python
 !pip install hands-on-ai pandas gradio
 ```
-import os
+
 
 4. Configure
 
 
-import os
 
+```python
 os.environ['HANDS_ON_AI_SERVER'] = 'https://ollama.locollm.org'
 os.environ['HANDS_ON_AI_MODEL'] = 'gemma3:4b'
 os.environ['HANDS_ON_AI_API_KEY'] = 'Curtin2026ISYS20015002'
 
-
+```
 ---
 
 
