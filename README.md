@@ -1,4 +1,5 @@
-# 📊 Smart Finance Assistant ——shengrui li
+---
+# 📊 Smart Finance Assistant – Shengrui Li
 
 <!-- BADGES:START -->
 [![curtin](https://img.shields.io/badge/-curtin-f57c00?style=flat-square)](https://github.com/topics/curtin) [![ai-assistant](https://img.shields.io/badge/-ai--assistant-blue?style=flat-square)](https://github.com/topics/ai-assistant) [![chatbot](https://img.shields.io/badge/-chatbot-blue?style=flat-square)](https://github.com/topics/chatbot) [![edtech](https://img.shields.io/badge/-edtech-4caf50?style=flat-square)](https://github.com/topics/edtech) [![finance](https://img.shields.io/badge/-finance-blue?style=flat-square)](https://github.com/topics/finance) [![financial-tools](https://img.shields.io/badge/-financial--tools-blue?style=flat-square)](https://github.com/topics/financial-tools) [![gradio](https://img.shields.io/badge/-gradio-blue?style=flat-square)](https://github.com/topics/gradio) [![jupyter-notebook](https://img.shields.io/badge/-jupyter--notebook-blue?style=flat-square)](https://github.com/topics/jupyter-notebook) [![python](https://img.shields.io/badge/-python-3776ab?style=flat-square)](https://github.com/topics/python) [![rag](https://img.shields.io/badge/-rag-blue?style=flat-square)](https://github.com/topics/rag)
@@ -10,51 +11,47 @@
 
 ## 📖 Project Overview
 
----# Smart Finance Assistant
+This project implements a Smart Finance Assistant using Python, pandas, hands-on-ai, and Gradio.
 
-## Project Overview
-This project is a Smart Finance Assistant built with Python, pandas, hands-on-ai, and Gradio.
+The assistant helps users analyse their spending habits by processing transaction data from CSV files. It provides summaries, identifies spending patterns, offers basic financial advice, and includes a savings calculator tool.
 
-The assistant helps users understand their spending habits by analysing transaction data from CSV files. It can summarise spending, identify high spending categories, provide basic financial advice, and calculate savings goals.
+---
 
-## Main Features
- 📊 Transaction Analysis
-- Financial advisor chatbot
-- CSV transaction analysis
-- Spending summary by category
-- Savings goal calculator
-- Simple Gradio user interface
-- Testing section with basic and edge case tests
+## 🚀 Features
 
 ### 💬 Chatbot
-- A financial advisor chatbot with a defined personality
+- Financial advisor chatbot with defined personality
 - Provides simple and practical financial advice
 
+### 📊 Transaction Analysis
+- Reads transaction data from CSV files
+- Calculates:
+  - Total spending
+  - Top category
+  - Average transaction amount
+
 ### 🧮 Savings Calculator Tool
-- Calculates how long it takes to reach a savings goal
-- Inputs:
-  - Current savings
-  - Monthly saving
-  - Target amount
- 
+- Calculates time needed to reach savings goals
+
 ### 🖥️ Gradio UI
 - Upload CSV files
-- Display analysis results
+- View analysis results
 - Use savings calculator
-- Simple and user-friendly interface
 
-## Technologies Used
+---
+
+## 🛠️ Technologies Used
+
 - Python
 - pandas
 - hands-on-ai
 - Gradio
-- Google Colab
-- chatgpt
+- Jupyter Notebook / Google Colab
 
+---
 
+## ▶️ How to Run
 
-## 📜 License
-
-The template code in this repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-You are free to license your own work (your project code) under any license you choose.
+1. Install required packages:
+```bash
+pip install hands-on-ai pandas gradio
