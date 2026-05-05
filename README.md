@@ -50,8 +50,13 @@ The assistant helps users analyse their spending habits by processing transactio
 
 ---
 
-## ▶️ How to Run
+## ▶️ How to Run (Google Colab)
 
-1. Install required packages:
-```bash
-pip install hands-on-ai pandas gradio
+1. Open Google Colab:
+https://colab.research.google.com/
+
+2. Upload the project notebook (.ipynb file)
+
+3. Install required packages:
+```python
+!pip install hands-on-ai pandas gradio
