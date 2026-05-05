@@ -60,6 +60,8 @@ https://colab.research.google.com/
 3. Install required packages:
 ```python
 !pip install hands-on-ai pandas gradio
+import os
+...
 4. Configure
 
 
@@ -72,9 +74,9 @@ os.environ['HANDS_ON_AI_API_KEY'] = 'Curtin2026ISYS20015002'
 
 ---
 
-## 🔧 加 Example Output（加分）
 
-```markdown
+
+
 ## 📊 Example Output
 
 - Total Spending: $XXX  
