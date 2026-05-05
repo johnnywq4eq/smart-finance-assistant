@@ -60,3 +60,5 @@ https://colab.research.google.com/
 3. Install required packages:
 ```python
 !pip install hands-on-ai pandas gradio
+
+4. Configure
