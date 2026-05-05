@@ -9,17 +9,6 @@ Welcome to your project repository for the **ISYS2001 Final Programming Project*
 ---
 
 ## 📖 Project Overview
-In this project, you will design and implement a **Smart Finance Assistant** using:
-- Python (Google Colab)
-- [hands-on-ai](https://pypi.org/project/hands-on-ai/) (chat, RAG, agent tools)
-- [Gradio](https://www.gradio.app/) (to create a simple app interface)
-
-Your Assistant should include:
-- **Chat**: a finance-oriented personality bot
-- **RAG**: retrieval from CSV or other documents
-- **Agent Tool**: one custom tool (e.g., budget calculator, currency converter)
-- **Gradio UI**: a simple interface tying everything together
-- **Tests**: a Testing Section in your notebook
 
 ---# Smart Finance Assistant
 
