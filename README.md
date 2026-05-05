@@ -62,3 +62,34 @@ https://colab.research.google.com/
 !pip install hands-on-ai pandas gradio
 
 4. Configure
+
+
+import os
+
+os.environ['HANDS_ON_AI_SERVER'] = 'https://ollama.locollm.org'
+os.environ['HANDS_ON_AI_MODEL'] = 'gemma3:4b'
+os.environ['HANDS_ON_AI_API_KEY'] = 'Curtin2026ISYS20015002'
+
+
+---
+
+## 🔧 加 Example Output（加分）
+
+```markdown
+## 📊 Example Output
+
+- Total Spending: $XXX  
+- Top Category: Food  
+- Recommendation:
+  - Reduce unnecessary spending  
+  - Set a monthly budget
+
+
+## 🤖 AI Collaboration
+
+AI tools such as ChatGPT and hands-on-ai were used to:
+- Generate code
+- Debug errors
+- Improve logic and structure
+
+All AI usage is documented in the Developer’s Diary.
