@@ -21,7 +21,27 @@ Your Assistant should include:
 - **Gradio UI**: a simple interface tying everything together
 - **Tests**: a Testing Section in your notebook
 
----
+---# Smart Finance Assistant
+
+## Project Overview
+This project is a Smart Finance Assistant built with Python, pandas, hands-on-ai, and Gradio.
+
+The assistant helps users understand their spending habits by analysing transaction data from CSV files. It can summarise spending, identify high spending categories, provide basic financial advice, and calculate savings goals.
+
+## Main Features
+- Financial advisor chatbot
+- CSV transaction analysis
+- Spending summary by category
+- Savings goal calculator
+- Simple Gradio user interface
+- Testing section with basic and edge case tests
+
+## Technologies Used
+- Python
+- pandas
+- hands-on-ai
+- Gradio
+- Jupyter Notebook / Google Colab
 
 ## 📂 Suggested Repo Layout
 You may adapt this structure or create your own. Clarity and organisation are graded in the rubric.
