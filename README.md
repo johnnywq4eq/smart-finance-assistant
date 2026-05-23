@@ -78,7 +78,7 @@ os.environ['HANDS_ON_AI_API_KEY'] = 'Curtin2026ISYS20015002'
 
 5. Run all notebook cells
 6. Launch the Gradio interface demo.launch()
-
+```
 📊 Example Output
 Total Spending: $150.95
 
