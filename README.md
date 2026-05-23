@@ -1,19 +1,15 @@
 ---
 # 📊 Smart Finance Assistant – Shengrui Li
 
-<!-- BADGES:START -->
-[![curtin](https://img.shields.io/badge/-curtin-f57c00?style=flat-square)](https://github.com/topics/curtin) [![ai-assistant](https://img.shields.io/badge/-ai--assistant-blue?style=flat-square)](https://github.com/topics/ai-assistant) [![chatbot](https://img.shields.io/badge/-chatbot-blue?style=flat-square)](https://github.com/topics/chatbot) [![edtech](https://img.shields.io/badge/-edtech-4caf50?style=flat-square)](https://github.com/topics/edtech) [![finance](https://img.shields.io/badge/-finance-blue?style=flat-square)](https://github.com/topics/finance) [![financial-tools](https://img.shields.io/badge/-financial--tools-blue?style=flat-square)](https://github.com/topics/financial-tools) [![gradio](https://img.shields.io/badge/-gradio-blue?style=flat-square)](https://github.com/topics/gradio) [![jupyter-notebook](https://img.shields.io/badge/-jupyter--notebook-blue?style=flat-square)](https://github.com/topics/jupyter-notebook) [![python](https://img.shields.io/badge/-python-3776ab?style=flat-square)](https://github.com/topics/python) [![rag](https://img.shields.io/badge/-rag-blue?style=flat-square)](https://github.com/topics/rag)
-<!-- BADGES:END -->
-
-
-
 ---
 
 ## 📖 Project Overview
 
 This project implements a Smart Finance Assistant using Python, pandas, hands-on-ai, and Gradio.
 
-The assistant helps users analyse their spending habits by processing transaction data from CSV files. It provides summaries, identifies spending patterns, offers basic financial advice, and includes a savings calculator tool.
+The assistant helps users analyse their spending habits by processing transaction data from CSV files. It provides spending summaries, identifies spending patterns, offers simple financial advice, and includes a savings calculator tool.
+
+The project is designed mainly for university students who want an easier way to manage spending and improve budgeting habits.
 
 ---
 
@@ -22,21 +18,31 @@ The assistant helps users analyse their spending habits by processing transactio
 ### 💬 Chatbot
 - Financial advisor chatbot with defined personality
 - Provides simple and practical financial advice
+- Gives budgeting and saving suggestions
 
 ### 📊 Transaction Analysis
 - Reads transaction data from CSV files
+- Cleans transaction data automatically
 - Calculates:
   - Total spending
-  - Top category
+  - Top spending category
   - Average transaction amount
+- Generates spending insights and recommendations
+
+### 🔍 Simple RAG System
+- Uses keyword-based retrieval for financial advice
+- Retrieves different financial tips depending on user questions
+- Improves chatbot response relevance
 
 ### 🧮 Savings Calculator Tool
 - Calculates time needed to reach savings goals
+- Includes simple error handling
 
 ### 🖥️ Gradio UI
 - Upload CSV files
-- View analysis results
+- View spending analysis results
 - Use savings calculator
+- Simple and user-friendly interface
 
 ---
 
@@ -46,52 +52,81 @@ The assistant helps users analyse their spending habits by processing transactio
 - pandas
 - hands-on-ai
 - Gradio
-- Jupyter Notebook / Google Colab
+- Jupyter Notebook
+- Google Colab
 
 ---
 
 ## ▶️ How to Run (Google Colab)
 
-1. Open Google Colab:
+### 1. Open Google Colab
 https://colab.research.google.com/
 
-2. Upload the project notebook (.ipynb file)
+### 2. Upload the notebook (.ipynb file)
 
-3. Install required packages:
+### 3. Install required packages
+
 ```python
 !pip install hands-on-ai pandas gradio
-```
 
+4. Configure hands-on-ai
+import os
 
-4. Configure
-
-
-
-```python
 os.environ['HANDS_ON_AI_SERVER'] = 'https://ollama.locollm.org'
 os.environ['HANDS_ON_AI_MODEL'] = 'gemma3:4b'
 os.environ['HANDS_ON_AI_API_KEY'] = 'Curtin2026ISYS20015002'
 
-```
----
+5. Run all notebook cells
+6. Launch the Gradio interface demo.launch()
 
+📊 Example Output
+Total Spending: $150.95
 
+Top Category: Entertainment
 
+Average Transaction: $37.74
 
-## 📊 Example Output
+Recommendation:
+- Reduce unnecessary spending
+- Set a monthly budget
+- Track spending regularly
 
-- Total Spending: $XXX  
-- Top Category: Food  
-- Recommendation:
-  - Reduce unnecessary spending  
-  - Set a monthly budget
+🧪 Testing
 
+The project includes testing for:
 
-## 🤖 AI Collaboration
+CSV data loading
+Data cleaning
+Spending analysis
+Recommendation generation
+Savings calculator
+Error handling
+Integration testing
 
-AI tools such as ChatGPT and hands-on-ai were used to:
-- Generate code
-- Debug errors
-- Improve logic and structure
+Testing scenarios include:
 
-All AI usage is documented in the Developer’s Diary.
+Normal transaction data
+Refund transactions
+Empty datasets
+Invalid values
+File format issues
+🤖 AI Collaboration
+
+AI tools such as ChatGPT and hands-on-ai were used throughout the project to support development.
+
+AI assistance was used for:
+
+Generating code
+Debugging errors
+Improving logic and structure
+Building testing cases
+Creating the Gradio interface
+Developing the chatbot and RAG system
+
+All AI-generated code was reviewed, tested, and modified before final implementation.
+
+AI usage and development reflections are documented in the Developer’s Diary.
+
+📜 License
+
+This project was created for educational purposes as part of a university assignment.
