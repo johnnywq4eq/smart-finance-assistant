@@ -2,46 +2,21 @@
 # 📓 Developer Diary – Shengrui Li
 
 ---
+Item 1- Project Planning
+artifact
+Use ChatGPT to assist in brainstorming ideas for the intelligent financial assistant project.
+Context
+At the beginning of the project, my goal was to develop a financial assistant to help college students better understand their consumption habits and enhance their budget management skills.
+Reflection
+ChatGPT helped me identify useful financial related features such as expense analysis, budget recommendations, savings recommendations, and CSV transaction processing.
+I understand that it is crucial to clearly define business issues before writing code. This allows me to focus on building a system that provides practical financial insights, rather than just displaying raw data.
 
-## Entry 1 – Chatbot Setup
+Article 2- CSV Data Processing
+artifact
+Use AI to assist in developing Python functions for loading and cleaning CSV transaction data.
+Context
+The financial assistant needs to handle transaction files that include dates, amounts, categories, and descriptions. These data include real-world issues such as dollar symbols and refund values.
+Reflection
+ChatGPT used pandas to help generate initial data cleaning logic. I have implemented functions for deleting dollar symbols, converting transaction amounts to numerical values, and deleting invalid rows.
+During the testing process, I learned the importance of data cleaning before performing analysis. I have also improved my understanding of DataFrames and CSV processing in Python.
 
-### Artifact
-Used ChatGPT to help generate chatbot personality and testing code.
-
-### Context
-I wanted to build a financial chatbot that gives simple saving advice.
-
-### Reflection
-ChatGPT helped me create a structured chatbot function and testing section.
-However, I had issues with undefined functions and connection errors.
-I fixed them by running cells in correct order and checking environment variables.
-
----
-
-## Entry 2 – Testing Section
-
-### Artifact
-Used AI to generate testing code including edge cases and assertions.
-
-### Context
-I needed to test whether my chatbot and data analysis worked correctly.
-
-### Reflection
-AI suggested useful test cases like empty data and income-only data.
-I removed unnecessary `pass` functions and simplified the testing code.
-This improved clarity and ensured my program runs correctly.
-
----
-
-## Entry 3 – Debugging Errors
-
-### Artifact
-Used ChatGPT to debug connection errors with hands-on-ai.
-
-### Context
-The chatbot returned "Connection error" even after setup.
-
-### Reflection
-I learned that API key and server settings must be correct.
-After updating configuration and re-running setup cells, the chatbot worked.
-This helped me understand debugging workflow better.
